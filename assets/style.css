@@ -1,0 +1,14 @@
+*{box-sizing:border-box}body{margin:0;font-family:-apple-system,"Noto Sans TC","PingFang TC","Microsoft JhengHei",sans-serif;color:#1f2937;background:#f8fafc;line-height:1.7}
+a{color:#1d4ed8;word-break:break-word}header{background:#0f172a;color:#fff;padding:28px 16px}header .w,main,footer{max-width:900px;margin:0 auto}
+header h1{margin:0 0 6px;font-size:1.6rem}header p{margin:0;color:#cbd5e1;font-size:.95rem}main{padding:16px}
+.note{background:#fff7ed;border:1px solid #fed7aa;border-radius:10px;padding:12px 14px;font-size:.9rem;margin:12px 0}
+.toc{display:flex;flex-wrap:wrap;gap:8px;margin:12px 0}.toc a{background:#e0e7ff;border-radius:999px;padding:4px 12px;text-decoration:none;font-size:.9rem}
+.card{background:#fff;border:1px solid #e2e8f0;border-radius:14px;padding:18px;margin:18px 0;box-shadow:0 1px 2px rgba(0,0,0,.04)}
+.head{display:flex;gap:14px;align-items:center}.head svg{width:84px;height:84px;flex:none;background:#f1f5f9;border-radius:12px;padding:6px}
+.rank{display:inline-block;background:#0f172a;color:#fff;border-radius:6px;padding:0 8px;font-size:.85rem;margin-right:6px}.tag{display:inline-block;background:#dcfce7;color:#166534;border-radius:6px;padding:0 8px;font-size:.85rem}
+.card h2{margin:4px 0;font-size:1.25rem}dl{margin:12px 0}dt{font-weight:700;margin-top:10px}dd{margin:2px 0 0}
+blockquote{margin:8px 0;padding:8px 12px;border-left:4px solid #94a3b8;background:#f8fafc;font-size:.92rem}blockquote small{display:block;color:#64748b}
+.sol{border:1px solid #e2e8f0;border-radius:10px;padding:12px;margin:10px 0}.sol h4{margin:0 0 4px;font-size:1rem}.cat{font-size:.78rem;background:#fef3c7;color:#92400e;border-radius:6px;padding:0 6px;margin-left:6px}
+.sol p{margin:4px 0;font-size:.92rem}.btn{display:inline-block;margin-top:6px;background:#1d4ed8;color:#fff;text-decoration:none;border-radius:8px;padding:6px 12px;font-size:.9rem}
+footer{padding:20px 16px 40px;font-size:.85rem;color:#475569}ul.gaps li{margin:4px 0}
+@media(max-width:560px){header h1{font-size:1.3rem}.head svg{width:64px;height:64px}.card{padding:14px}}
